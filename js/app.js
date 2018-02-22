@@ -6,8 +6,8 @@ countE.innerHTML=8;
 
 
 // 2. Target the div with the id of 'age' and change the contents to: "21 year old vibrant stud".
-
-
+var ageE=document.getElementById('age');
+ageE.innerHTML="21 year old vibrant stud";
 
 // 3. Target the span element with the id of "distance" and change the number from 1000 to 168.
 
