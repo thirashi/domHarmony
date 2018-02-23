@@ -23,4 +23,9 @@ profile.append(paraE);
 
 // 5. Create a span element of the id of "mail" and give it a content of 11. Append this element into the "Messages" li element.
 
+var menuE = document.getElementsByClassName("menu");
 
+var mailE = document.createElement("span");
+mailE.id = "mail";
+mailE.innerHTML =11;
+menuE[2].appendChild(mailE);
